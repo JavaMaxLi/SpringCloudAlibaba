@@ -1,0 +1,16 @@
+
+server:
+  port: 9003
+
+spring:
+  application:
+    name: nacos-consumer-9003
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848 #读取配置文件地址
+        file-extension: yaml  #配置文件类型
+        group: TEST_GROUP  #分组
+        namespace: f9a76a5d-fc7c-4c70-980a-8a71a964591f  #命名空间
