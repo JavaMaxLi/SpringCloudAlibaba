@@ -1,0 +1,12 @@
+server:
+  port: 9005
+spring:
+  application:
+    name: sentinel-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080   #sentinel dashboard地址
