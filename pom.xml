@@ -3,6 +3,22 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>Springcloud-Alibaba-Commno</module>
+        <module>Springcloud-Alibaba-Config-9900</module>
+        <module>Springcloud-Alibaba-Consumer-9003</module>
+        <module>Springcloud-Alibaba-Nacos</module>
+        <module>Springcloud-Alibaba-Nacos-9002</module>
+        <module>Springcloud-Alibaba-Sentinel-9005</module>
+        <module>Springcloud-Alibaba-Commno</module>
+    </modules>
+
+    <!--打包方式
+        pom:maven依赖文件,用在父级工程或聚合工程中。用来做jar包的版本控制;
+        war:是做好一个web网站后，打成war包部署到服务器。目的是节省资源，提供效率。
+        jar:开发时要引用通用类，打成jar包便于存放管理。当你使用某些功能时就需要这些jar包的支持，需要导入jar包
+    -->
+    <packaging>pom</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

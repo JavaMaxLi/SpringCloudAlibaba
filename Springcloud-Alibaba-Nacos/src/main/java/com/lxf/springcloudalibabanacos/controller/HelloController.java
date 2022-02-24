@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/hello")
 public class HelloController {
 
+
     @GetMapping(value = "/getValue")
     public String getValue(@RequestParam(value = "name")String names) {
         return names + "你好！";

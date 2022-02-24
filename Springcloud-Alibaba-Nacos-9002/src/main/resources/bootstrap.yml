@@ -1,5 +1,5 @@
 server:
-  port: 9001
+  port: 9002
 
 spring:
   application:
@@ -7,11 +7,10 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
+        server-addr: 101.43.13.93:1111
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/spring_boot?useUnicode=yes&characterEncoding=utf8&useSSL=false&autoReconnect=true&serverTimezone=UTC
     username: root
     password: Root123456    #Lxf_332521
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
-
