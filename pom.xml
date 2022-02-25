@@ -4,13 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>Springcloud-Alibaba-Commno</module>
         <module>Springcloud-Alibaba-Config-9900</module>
         <module>Springcloud-Alibaba-Consumer-9003</module>
         <module>Springcloud-Alibaba-Nacos</module>
         <module>Springcloud-Alibaba-Nacos-9002</module>
         <module>Springcloud-Alibaba-Sentinel-9005</module>
-        <module>Springcloud-Alibaba-Commno</module>
     </modules>
 
     <!--打包方式
