@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @author LiXiaoFeng
  * @date 2022年02月25日 15:22
  */
-@FeignClient(value = "nacos-provider")
+@FeignClient(value = "nacos-provider",fallback = UserServiceFallBack.class)
 @Component
 public interface UserService {
 
